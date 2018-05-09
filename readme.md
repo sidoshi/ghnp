@@ -68,7 +68,7 @@ ghnp
   })
 ```
 
-See the schema of [raw notification]() object and [parsed notification]() objects.
+See the schema of [raw notification](https://github.com/sidoshi/ghnp/blob/master/src/types.js#L7-L86) object and [parsed notification](https://github.com/sidoshi/ghnp/blob/master/src/types.js#L111-L117) objects.
 
 ## License
 
