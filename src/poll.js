@@ -20,21 +20,20 @@ const poll = (
   Observable.create(observer => {
     let timer
 
-    const notify = (lastModified?: string) =>
+    const notify = (lastModified?: string) => {
       getNotifications({ client, url, lastModified, params })
         .then(res => {
+          const interval = Math.max(defaultInterval, res.pollIntervalMs) || 0
+          timer = setTimeout(() => notify(res.lastModified), interval)
+
           if (res.updated) {
             observer.next(res.notifications)
           }
-
-          const interval = Math.max(defaultInterval, res.pollIntervalMs) || 0
-          timer = setTimeout(() => notify(res.lastModified), interval)
         })
         .catch(observer.error)
-
+    }
     // Start the notifier for the first time on subscription
     notify()
-
     return () => clearTimeout(timer)
   }).pipe(mergeAll())
 

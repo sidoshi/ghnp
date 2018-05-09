@@ -1,0 +1,39 @@
+[
+  {
+    "reason": "You're watching the repository.",
+    "title": "Fix security issues in NPM",
+    "repo": "npm/npm",
+    "url": "https://api.github.com/repos/npm/npm/pulls/20559",
+    "htmlUrl": "https://github.com/npm/npm/pull/20559"
+  },
+  {
+    "reason": "You're watching the repository.",
+    "title": "NPM scripts not evaluting inside strings",
+    "repo": "npm/npm",
+    "url": "https://api.github.com/repos/npm/npm/issues/20560",
+    "htmlUrl": "https://github.com/npm/npm/issues/20560"
+  },
+  {
+    "reason": "You're watching the repository.",
+    "title": "Flags to manipulate exit codes for `npm audit`",
+    "repo": "npm/npm",
+    "url": "https://api.github.com/repos/npm/npm/issues/comments/387720132",
+    "htmlUrl": ""
+  },
+  {
+    "reason": "You're watching the repository.",
+    "title":
+      "npm install fails with \"Error: write after end\" or \"ERR_STREAM_WRITE_AFTER_END\" on 5.7.x and 5.8.x",
+    "repo": "npm/npm",
+    "url": "https://api.github.com/repos/npm/npm/issues/comments/387711462",
+    "htmlUrl": "https://github.com/npm/npm/issues/19989#issuecomment-387711462"
+  },
+  {
+    "reason": "You're watching the repository.",
+    "title":
+      "Think about splitting package.json into parts in order to improve docker experience",
+    "repo": "npm/npm",
+    "url": "https://api.github.com/repos/npm/npm/issues/comments/387709223",
+    "htmlUrl": "https://github.com/npm/npm/issues/11446#issuecomment-387709223"
+  }
+]

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Throws on all errors other then 304 1`] = `
+Object {
+  "data": "NOTIFICATIONS",
+  "headers": Object {
+    "last-modified": "LAST_MODIFIED",
+    "x-poll-interval": "60",
+  },
+  "status": 500,
+}
+`;

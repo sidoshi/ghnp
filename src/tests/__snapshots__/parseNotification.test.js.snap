@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parses notification properly 1`] = `
+Object {
+  "htmlUrl": "htmlUrl",
+  "reason": "You're watching the repository.",
+  "repo": "npm/npm",
+  "title": "Fix security issues in NPM",
+  "url": "https://api.github.com/repos/npm/npm/pulls/20559",
+}
+`;
+
+exports[`parses notification properly 2`] = `
+Object {
+  "htmlUrl": "htmlUrl",
+  "reason": "You're watching the repository.",
+  "repo": "npm/npm",
+  "title": "NPM scripts not evaluting inside strings",
+  "url": "https://api.github.com/repos/npm/npm/issues/20560",
+}
+`;
+
+exports[`parses notification properly 3`] = `
+Object {
+  "htmlUrl": "htmlUrl",
+  "reason": "You're watching the repository.",
+  "repo": "npm/npm",
+  "title": "Flags to manipulate exit codes for \`npm audit\`",
+  "url": "https://api.github.com/repos/npm/npm/issues/comments/387720132",
+}
+`;
+
+exports[`parses notification properly 4`] = `
+Object {
+  "htmlUrl": "htmlUrl",
+  "reason": "You're watching the repository.",
+  "repo": "npm/npm",
+  "title": "npm install fails with \\"Error: write after end\\" or \\"ERR_STREAM_WRITE_AFTER_END\\" on 5.7.x and 5.8.x",
+  "url": "https://api.github.com/repos/npm/npm/issues/comments/387711462",
+}
+`;
+
+exports[`parses notification properly 5`] = `
+Object {
+  "htmlUrl": "htmlUrl",
+  "reason": "You're watching the repository.",
+  "repo": "npm/npm",
+  "title": "Think about splitting package.json into parts in order to improve docker experience",
+  "url": "https://api.github.com/repos/npm/npm/issues/comments/387709223",
+}
+`;
