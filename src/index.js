@@ -19,11 +19,3 @@ const GHNP = (token: string) => {
 }
 
 export default GHNP
-
-// const token = 'ceb6379babffab577f3b8562b2dab542cbe5a741'
-// const ghnp = GHNP(token)
-//
-// ghnp
-//   .poll()
-//   .pipe(ghnp.parseNotifications(), map(x => console.log(x)))
-//   .subscribe()

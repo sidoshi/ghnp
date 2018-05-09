@@ -1,12 +1,10 @@
 {
   "name": "ghnp",
   "description": "Rx utilites for GitHub Notifications Polling",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "dist/index.js",
   "license": "MIT",
-  "files": [
-    "dist/"
-  ],
+  "files": ["dist/"],
   "scripts": {
     "build": "cosmo build",
     "test": "cosmo test",
@@ -19,11 +17,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "cosmo format -f",
-      "cosmo lint -f",
-      "git add"
-    ]
+    "*.js": ["cosmo format -f", "cosmo lint -f", "git add"]
   },
   "eslintConfig": {
     "extends": "cosmo"
