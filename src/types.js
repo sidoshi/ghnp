@@ -107,3 +107,11 @@ export type PollNotificationsOptions = {
     g: GetNotificationsOptions
   ) => Promise<GetNotificationsResponse>,
 }
+
+export type ParsedNotification = {
+  reason: string,
+  title: string,
+  repo: string,
+  url: string,
+  htmlUrl: string,
+}
